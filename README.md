@@ -3,7 +3,8 @@ Desarrollar inicio de app que lista posts y su login
 
 ### Inicio
 
-```https://prueba-front-end.netlify.app/
+```
+*** https://prueba-front-end.netlify.app/
 
 
 En el inicio se cuenta con:
@@ -20,7 +21,8 @@ En el inicio se cuenta con:
 
 ### Login
 
-```https://prueba-front-end.netlify.app/
+```
+*** https://prueba-front-end.netlify.app/
 
 Página de inicio de sesión (No alcancé a hacer la funcionalidad)
 

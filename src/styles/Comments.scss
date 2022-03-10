@@ -1,0 +1,44 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.comments {
+
+  &__item {
+
+    &:not(:last-child) {
+      border-bottom: .1rem solid $mid-gray-color;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+    }
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    &-name {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: .3rem;
+    }
+
+  }
+
+  &__date {
+    font-size: 1.1rem;
+  }
+
+  &__image {
+    margin-right: 1.5rem;
+  }
+
+  &__img {
+    border-radius: 50%;
+    max-width: 4rem;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+  }
+}

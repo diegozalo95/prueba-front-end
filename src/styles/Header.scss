@@ -1,0 +1,23 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.header {
+  &__container {
+    @include container;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__photo {
+    display: flex;
+    justify-content: flex-end;
+
+    &-img {
+      max-width: 4rem;
+      border-radius: 50%;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.login {
+
+  &__container {
+    @include container;
+    box-shadow: $shadow;
+    padding: 2.5rem;
+    background-color: $white-color;
+    border-radius: 2rem;
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    max-width: 13rem;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  &__google {
+    margin: 2.5rem 0;
+    padding-top: 2.5rem;
+    border-top: .1rem solid $mid-gray-color;
+    display: flex;
+
+    &-link {
+      @include btn;
+      width: 100%;
+      background-color: $mid-gray-color;
+      border: 0;
+      color: $gray-color;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: .1rem solid $gray-color;
+
+      &::before {
+        content: '';
+        background: url('../assets/icons/gmail.svg');
+        width: 2rem;
+        height: 1.5rem;
+        background-size: 100%;
+        background-position: center;
+        display: flex;
+        margin-right: 1.5rem;
+      }
+
+      &:hover {
+        background-color: $gray-color;
+        color: $white-color;
+      }
+    }
+  }
+
+  &__register{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    &-text {
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+    }
+
+    &-link {
+      font-size: 1.2rem;
+      color: $main-color;
+
+      &:hover {
+        color: $custom-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}

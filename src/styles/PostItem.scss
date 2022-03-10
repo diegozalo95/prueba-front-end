@@ -1,0 +1,71 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.post {
+  background-color: $white-color;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+
+  &__user {
+    align-items: center;
+    display: flex;
+    padding: 1.5rem;
+    cursor: pointer;
+
+    &-photo {
+      margin-right: 1rem;
+      max-width: 3rem;
+    }
+
+    &-img {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    &-name {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: .3rem;
+    }
+
+    &-date {
+      font-size: 1.1rem;
+    }
+  }
+
+  &__reacts {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  &__like {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+
+    &-img {
+      max-width: 2rem;
+      margin-right: .5rem;
+    }
+
+    &-number {
+      font-size: 1.2rem;
+    }
+  }
+
+  &__comment {
+    cursor: pointer;
+  }
+
+  &__data {
+    &-info {
+      display: flex;
+      padding: 1rem 2rem 2rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.3rem;
+  }
+}

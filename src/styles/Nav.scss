@@ -1,0 +1,22 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.nav {
+  box-shadow: $shadow;
+  background-color: $white-color;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  z-index: 2;
+
+  &__container {
+    @include container;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+  }
+}

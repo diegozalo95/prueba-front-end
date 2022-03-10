@@ -1,0 +1,39 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.search {
+  &__container {
+    @include container;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  }
+
+  &__form {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  &__fieldset {
+    position: relative;
+  }
+
+  &__input {
+    width: 100%;
+    background-color: $mid-gray-color;
+    border: 0;
+    border-radius: 2rem;
+    padding: 1rem 1rem 1rem 5rem;
+  }
+
+  &__button {
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+
+    &::before {
+      content: url('../assets/icons/search.svg');
+    }
+  }
+}

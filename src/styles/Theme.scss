@@ -1,0 +1,11 @@
+@import 'Reset.scss';
+@import 'Variables.scss';
+
+body {
+  padding-bottom: 7rem;
+  background-color: $almost-white-color;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}

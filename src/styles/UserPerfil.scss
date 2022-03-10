@@ -1,0 +1,25 @@
+@import 'Variables.scss';
+@import 'Mixins.scss';
+
+.user {
+  &__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  &__img {
+    border-radius: 50%;
+  }
+
+  &__text {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+    text-align: center;
+
+    &--name {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
