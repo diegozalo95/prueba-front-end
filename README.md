@@ -22,7 +22,7 @@ En el inicio se cuenta con:
 ### Login
 
 ```
-*** https://quizzical-cori-37629c.netlify.app/login
+*** https://prueba-front-end.netlify.app/login
 
 Página de inicio de sesión (No alcancé a hacer la funcionalidad)
 
