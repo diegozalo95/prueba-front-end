@@ -34,6 +34,11 @@
     border-top: .1rem solid $mid-gray-color;
     display: flex;
 
+    button {
+      width: 100%;
+      justify-content: center;
+    }
+
     &-link {
       @include btn;
       width: 100%;

@@ -4,7 +4,6 @@ import '../styles/Comments.scss'
 
 const Comments = (children) => {
   const dataPost = useGetComments(`https://dummyapi.io/data/v1/post/${children.id}/comment?limit=30`)
-  console.log(dataPost.length)
 
   return (
     <div className='comments'>
@@ -32,12 +31,6 @@ const Comments = (children) => {
       </div>
     </div>
   )
-    // return (
-    //   <div className='comments'>
-    //     <h2 className='comments__empty'>No hay comentarios</h2>
-    //   </div>
-    // )
-
 }
 
 export default Comments

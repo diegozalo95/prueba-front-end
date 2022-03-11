@@ -11,13 +11,28 @@
     justify-content: space-between;
   }
 
-  &__photo {
+  &__user-login {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+
+    &-photo {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 1rem;
+    }
 
     &-img {
-      max-width: 4rem;
+      max-width: 3rem;
       border-radius: 50%;
+    }
+
+    &-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+
+      @media (max-width: $screen-xs) {
+        display: none;
+      }
     }
   }
 }

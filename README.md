@@ -10,7 +10,7 @@ Desarrollar inicio de app que lista posts y su login
 En el inicio se cuenta con:
   * header que contiene logo.
 
-  * buscador (No alcancé a hacer la funcionalidad)
+  * buscador Por tags
 
   * Lista de Posts,
     En ella se puede clicar el usuario que hizo el post para ver su información en un modal y al icono de comentarios.
@@ -22,8 +22,8 @@ En el inicio se cuenta con:
 ### Login
 
 ```
-*** https://prueba-front-end.netlify.app/login
+***
 
-Página de inicio de sesión (No alcancé a hacer la funcionalidad)
+Página de inicio de sesión solo por medo de Google
 
 ```

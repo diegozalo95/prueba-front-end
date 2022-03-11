@@ -3,7 +3,7 @@ import '../styles/Login.scss'
 import '../styles/Form.scss'
 import LoginImage from '../assets/images/login.svg'
 
-const Login = () => {
+const Login = ({ children }) => {
   return (
     <div className='login'>
       <div className='login__container'>
@@ -31,8 +31,7 @@ const Login = () => {
           </fieldset>
         </form>
         <div className='login__google'>
-          <a href="/"
-            className='login__google-link'>Ingresa con Google</a>
+          { children }
         </div>
         <div className='login__register'>
           <p className='login__register-text'>No tienes cuenta?</p>

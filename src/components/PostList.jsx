@@ -13,7 +13,6 @@ const PostList = () => {
 				<div className='posts__list'>
 					{
 						dataPost.map(item => {
-							// console.log(item);
 							return(
 								<PostItem key={item.id}
 									idPost={item.id}

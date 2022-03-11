@@ -2,11 +2,13 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Login from '../components/Login'
 
-const LoginPage = () => {
+const LoginPage = ({ children }) => {
   return (
     <Fragment>
       <Header />
-      <Login />
+      <Login>
+        { children }
+      </Login>
     </Fragment>
   )
 }
